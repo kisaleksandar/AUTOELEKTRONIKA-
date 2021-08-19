@@ -34,7 +34,9 @@
 # KAKO TESTIRATI SISTEM
 -Kada su pokrenute sve periferije na nacin opisan iznad, moze se pokrenuti kod i testirati sistem.
 
--Sistem se moze aktivirati preko kanala2 AdvUniCom, slanjem komande START/0d. Komanda se kuca u box koji se nalazi levo od komande SEND CODE. Kada je ova komanda
+-Sistem se moze aktivirati pritiskom na prekidac(prvi stubac LED_bar-a, skroz donja dioda).
+
+-Sistem se takodje moze aktivirati preko kanala2 AdvUniCom, slanjem komande START/0d. Komanda se kuca u box koji se nalazi levo od komande SEND CODE. Kada je ova komanda
 poslata, na led baru treba da se upali skroz donja dioda drugog stubca LED_bar-a. Na Terminalu kanala 2, stanje sistema ce da se promeni iz START u STOP(Stanje:START...) i
 krenuce da se prikazuju kalibrisane vrednost oba senzora(npr. K1:072, K2:050). 
 
